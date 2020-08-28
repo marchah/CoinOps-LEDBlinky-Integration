@@ -1,0 +1,19 @@
+These folders can be used to specifiy unique animations on a game-by-game basis. To use this feature, the animation files (.lwax) in these folder MUST have the same name as the game or rom, and you must have a default animation selected for the related animation option in the Configuration app.
+
+For example, let's say you wish to run a specific animation when playing Joust; First you must have an animation selected for the "Game Play Animation" option - this is the default animation. Next, create (or copy) your Joust animation into the \lwa\GameSpecific\GamePlay folder. The file MUST have the exact same name as the game/rom the emulator is running. So for Joust, you would use "joust.lwax". That's it.
+
+Three game events are supported; Game Start, Game Play, and Game Pause (MAME only). Game Play and Game Pause animations support the audio animation feature, which optionally uses an additional animation file. The same three game events are also supported for Cabinet LEDs - these folders are prefixed with "Cab". Please see the "Install and Config" doc for complete information on using Game Specific animations and/or Cabinet LEDs.
+
+Folder Descriptions:
+GameStart - Animation plays when game start (single loop).
+GamePlay - Animation plays continuously while emulator is active.
+GamePlayAudio - Audio animation (optionally) used when Game Play Animation is set to <Audio Animation>.
+GamePause - Animation plays continuously while MAME is paused.
+GamePauseAudio - Audio animation (optionally) used when Game Pause Animation is set to <Audio Animation>.
+
+These folders are only when the Cabinet LEDs option is enabled:
+CabGameStart - Cabinet animation plays when game start (single loop).
+CabGamePlay - Cabinet animation plays continuously while emulator is active.
+CabGamePlayAudio - Audio animation (optionally) used when Cabinet Game Play Animation is set to <Audio Animation>.
+CabGamePause - Cabinet animation plays continuously while MAME is paused.
+CabGamePauseAudio - Audio animation (optionally) used when Cabinet Game Pause Animation is set to <Audio Animation>.

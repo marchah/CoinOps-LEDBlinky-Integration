@@ -1,0 +1,95 @@
+LEDBlinky Arcade LED Control Software (LEDBlinky) End-User License Agreement
+Copyright (c) 2007 by Millennium Micro Solutions / Dennis G. Gilbert
+All rights reserved.
+
+_____________________________________________________
+LICENSE AGREEMENT
+
+IMPORTANT! READ CAREFULLY:
+ 
+YOUR USE OF THIS SOFTWARE ("LEDBlinky") INDICATES YOUR ACCEPTANCE OF THIS END-USER LICENSE AGREEMENT AND WARRANTY.
+
+This End-User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and Millennium Micro Solutions / Dennis G. Gilbert for LEDBlinky Software later referred to as "the Software".
+
+The Software under this License is provided free of charge only in its TRIAL VERSION.
+
+"Trial Version" means a version of the Software to be used only to review, demonstrate and evaluate the Software for an unlimited time period. The Trial Version may have limited features.  
+
+LEDBlinky software is shareware. It means that You can download the Trial Version for evaluation and, if You like the product, order the license. I.e. You can try before You buy. The functional peculiarities present in the Trial Version may not be a reason for refund request of a purchased license.
+
+Even though a license fee is not paid for the use of Trial Version software, it does not mean that there are no conditions for using such software. 
+
+This Software is copyrighted and the owner of the copyright claims all exclusive rights to such software.
+
+By installing, copying, or otherwise using the Software You agree to be bound by the terms of this EULA. If You do not agree to the terms of this EULA, do not install or use the Software.
+
+_____________________________________________________
+1. DEFINITIONS
+When used in this Agreement, the following terms shall have the respective meanings indicated, such meanings to be applicable to both the singular and plural forms of the terms defined:
+
+"Licensor" means Millennium Micro Solutions / Dennis G. Gilbert.
+
+"Licensee" means You, unless otherwise indicated.
+
+"Software" means (a) all of the contents of the files, disk(s), CD-ROM(s) or other media with which this Agreement is provided, including but not limited to ((i) registration information, i.e. License key which is unique for a registration name of the Licensee; (ii) related explanatory written materials or files ("Documentation"); and (iii) Software setup files and code samples (if any); and (b) upgrades, modified versions, updates, additions, and copies of the Software, if any, licensed to you by Millennium Micro Solutions / Dennis G. Gilbert (collectively, "Updates").
+
+"Use" or "Using" means to access, install, download, copy or otherwise benefit from using the functionality of the Software in accordance with the Documentation.
+
+"Computer" means an electronic device that accepts information in digital or similar form and manipulates it for a specific result based on a sequence of instructions.
+
+_____________________________________________________
+2. GENERAL USE 
+
+As long as the Licensee complies with the terms of this End-User License Agreement (the "Agreement"), the Licensor grants the Licensee a non-exclusive right to Use the Software for the purposes described in the Documentation under the following conditions:
+ 
+2.1 The Software may be installed and Used by the Licensee on any number of computers owned, leased or controlled by the Licensee.
+
+2.2 The Purchased/Licensed Version of the Software may not be copied or distributed under any condition.
+
+2.3 The Trial Version of the Software may be copied and distributed under the condition that original copyright notice and disclaimer of warranty will stay intact and the Licensee will not charge money or fees for the Software product.
+
+2.4 The Licensee's distribution of Trial Version of the Software will not entitle him to any compensation from the Licensor.
+
+2.5 The Licensee may not rent, lease, or lend the Software to anyone.
+
+2.6 The Licensee may permanently transfer all of his rights under this EULA, provided the recipient agrees to the terms of this EULA.
+
+2.7 Without prejudice to any other rights, the Licensor may terminate this EULA if the Licensee fails to comply with the terms and conditions of this EULA. In such event, the Licensee must destroy all copies of the Software.
+
+_____________________________________________________
+3. INTELLECTUAL PROPERTY RIGHTS
+
+3.1 This License does not transmit any intellectual rights on the Software. The Software and any copies that the Licensee is authorized by the Licensor to make are the intellectual property of and are owned by the Licensor and its suppliers.
+ 
+3.2 The Software is protected by copyright, including without limitation by Copyright Law and international treaty provisions. 
+
+3.3 Any copies that the Licensee is permitted to make pursuant to this Agreement must contain the same copyright and other proprietary notices that appear on or in the Software.
+ 
+3.4 The structure, organization and code of the Software are the valuable trade secrets and confidential information of the Licensor. The Licensee agrees not to decompile, disassemble or otherwise attempt to discover the source code of the Software.
+
+3.5 Any attempts to reverse-engineer, copy, clone, modify or alter in any way the Software or installer program are strictly prohibited. The Licensee is not authorized to use any plug-in or enhancement that permits to save modifications to a file with software licensed and distributed by the Licensor.
+
+3.6 Any information supplied by the Licensor or obtained by the Licensee, as permitted hereunder, may only be used by the Licensee for the purpose described herein and may not be disclosed to any third party or used to create any software which is substantially similar to the expression of the Software.
+
+_____________________________________________________
+4. WARRANTY
+
+4.1 The Licensor warrants that: It owns the Software and documentation and/or is in possession of valid and existing licenses that support the terms of this agreement. To the best of its knowledge, the Software does not infringe upon or violate any intellectual property right of a third party, The Software does not contain any back door, time bomb, drop dead device or other routine intentionally designed by the Licensor to disable a computer program or computer instructions that alter, destroy or inhibit the processing environment.
+
+4.2 Except those warranties specified in section 4.1 above, the Software is being delivered to the Licensee «AS IS» and the Licensor makes no warranty as to its use or performance.
+
+The Licensor does not and cannot warrant the performance or results the Licensee may obtain by using the Software.
+ 
+Except for any warranty, condition, representation or term to the extent to which the same cannot or may not be excluded or limited by law applicable to the Licensee in his jurisdiction, the Licensor makes no warranties conditions, representations, or terms (express or implied whether by statute, common law, custom, usage or otherwise) as to any matter including without limitation non-infringement of third party rights, merchantability, integration, satisfactory quality, or fitness for any particular purpose.
+
+_____________________________________________________
+5. LIMITATION OF LIABILITY
+
+In no event will the Licensor be liable for any damages, claims or costs whatsoever or any consequential, indirect, incidental damages, or any lost profits or lost savings, even if the Licensor has been advised of the possibility of such loss, damages, claims or costs or for any claim by any third party. 
+
+In no event will the Licensee be liable to the Licensor on condition that the Licensee complies with all terms and conditions stated in this License.
+
+_____________________________________________________
+6. NON-WAIVER
+
+If a portion of this agreement is held unenforceable, the remainder shall be valid. It means that if one section of the Agreement is not lawful, the rest of the Agreement is still in force. A party's failure to exercise any right under this Agreement will not constitute a waiver of (a) any other terms or conditions of this Agreement, or (b) a right at any time thereafter to require exact and strict compliance with the terms of this Agreement.
