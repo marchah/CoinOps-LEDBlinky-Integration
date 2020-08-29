@@ -2,7 +2,7 @@
 cd..
 cd..
 cd LEDBlinky
-start "" LEDBlinky.exe aliens
+start "" LEDBlinky.exe aliens MAME
 cd..
 cd mame
 
