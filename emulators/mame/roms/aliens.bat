@@ -22,7 +22,6 @@ timeout /t 5
 goto WAITLOOP
 
 :NOTRUNNING
-taskkill /f /im "LEDBlinky.exe"
 cd..
 cd LEDBlinky
 start "" LEDBlinky.exe random.lwax
