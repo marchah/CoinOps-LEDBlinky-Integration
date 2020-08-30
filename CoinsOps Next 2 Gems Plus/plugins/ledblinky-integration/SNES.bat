@@ -7,7 +7,7 @@ cd..\LEDBlinky
 start "" LEDBlinky.exe %rom_name% MAME
 
 cd..\..\emulators\mame
-start /wait "" mame.exe snes -cart "%rom_path%" -view %rom_name%
+start /wait "" mame.exe snes -cart %rom_path% -view %rom_name%
 
 :WAITLOOP
 tasklist /FI "IMAGENAME eq mame.exe" 2>NUL | find /I /N "mame.exe">NUL
