@@ -24,6 +24,10 @@
 - Need to find a way to stop LEDBlinky when CoinOps exit
 - Need to test if servostick is working
 
+### Gems
+
+- have instructions to launch game `Sonic` on Genesis and `GNC` on SNES, didn't see them on the frontend so not handle by LEDBlinky yet.
+
 
 ## Notes
 
