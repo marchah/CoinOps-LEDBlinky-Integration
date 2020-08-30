@@ -1,0 +1,11 @@
+
+Terms Of Use:
+------------------------------
+GP-Wiz49(TM), DRS(TM) and Digital Restrictor Selection(TM) Firmware, Software, Documentation and Artwork -
+Copyright 2005 - Ithaca Digital Visual Technologies Inc. - All Rights Reserved
+
+GP-Wiz49, and any and all accompanying software, files, data and materials, are distributed and provided "AS IS" and with no warranties of any kind, whether express or implied.  IDVT Inc. makes no claims as to safety or suitability of this software for any purpose whatsoever.  By installing and/or using this software, you agree that you have read and accept the terms of this agreement. In addition, in no event shall IDVT Inc., or its principals, shareholders, officers, employees, affiliates, contractors, subsidiaries, or parent organizations, be liable for any indirect, incidental, consequential, or punitive damages whatsoever relating to the use of the GP-Wiz49 or GP-Wiz49 Software, or to your relationship with IDVT Inc.  You also agree not to distribute or post this software in any form, either original or modified, on any public or private Internet sites without the expressed written permission of the provider.  Furthermore, you agree not to reverse-engineer, disassemble, or modify this software in any way, or to use it for any purposes other than as intended by the scope of this document.  
+
+In addition, in no event does IDVT Inc. authorize you to use the GP-Wiz49 or it's associated software in applications or systems where the GP-Wiz49's failure to perform can reasonably be expected to result in a significant physical injury, or in loss of life.  Any such use by you is entirely at your own risk, and you agree to hold IDVT Inc. harmless from any and all claims or losses relating to such unauthorized use.
+
+* Trademarks are property of their respective Tradmeark holders, who have no affiliation with this product or IDVT Inc., it's assignees or affiliates.
