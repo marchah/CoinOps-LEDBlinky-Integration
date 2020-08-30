@@ -52,7 +52,7 @@
 - __PSP__ -> Ultimate Ghosts 'n Goblins (not working)
 - __PSX__ -> Crash Bandicoot 2 (not working)
 - __SegaCD__ -> Sonic CD (not working)
-- __SNES__ -> Axelay (not working)
+- __SNES__ -> Axelay (working but no color in conf)
 - __SNESalt__ -> Super Mario World II (not working)
 
 
