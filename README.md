@@ -23,10 +23,37 @@
 - Need to find a way to start LEDBlinky when CoinOps start
 - Need to find a way to stop LEDBlinky when CoinOps exit
 - Need to test if servostick is working
+- Add conf for Border Down
+- Move `plugins` folder outside of each Gems folder to only have one, will make maintenance easier
 
 ### Gems
 
 - have instructions to launch game `Sonic` on Genesis and `GNC` on SNES, didn't see them on the frontend so not handle by LEDBlinky yet.
+
+
+## Testing
+
+### Gems
+
+- __Genesis__ -> ???
+- __mame__ -> Alien Storm
+- __SNES__ -> ???
+
+### Gems Plus
+
+- __C64__ -> Uridium (not working)
+- __DC__ -> Border Down (working but no color in conf)
+- __DK__ -> ???
+- __Dolphin__ -> F-Zero GX (not working)
+- __Genesis__ -> Eco The Dolphin (not working)
+- __mame__ -> Alien Storm
+- __mameNEW__ -> ???
+- __N64__ -> Super Mario 64 (not working)
+- __PSP__ -> Ultimate Ghosts 'n Goblins (not working)
+- __PSX__ -> Crash Bandicoot 2 (not working)
+- __SegaCD__ -> Sonic CD (not working)
+- __SNES__ -> Axelay (not working)
+- __SNESalt__ -> Super Mario World II (not working)
 
 
 ## Notes
