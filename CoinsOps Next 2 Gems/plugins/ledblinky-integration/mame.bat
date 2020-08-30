@@ -1,4 +1,5 @@
 @echo off
+call config.cmd
 set rom_name=%1
 
 
@@ -19,4 +20,4 @@ goto WAITLOOP
 
 :NOTRUNNING
 cd..\..\plugins\LEDBlinky
-start "" LEDBlinky.exe random.lwax
+start "" LEDBlinky.exe %frontend_default_animation%
