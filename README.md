@@ -1,9 +1,29 @@
 # CoinOps GEMS LEDBlinky Integration
- 
 
  This in a WIP for integrated LEDBlinbky into CoinOps Gems
 
  Feel free to create a ticket about suggestions, ideas and imporvements.
+
+## Installation
+ 
+- Select your Gems version folder and drap & drop the files in your Gems root folder.
+- Generate your `LEDBlinkyInputMap.xml` using `plugins/LEDBlinky/GenLEDBlinkyInputMap.exe` (check this video for more infos [Instructions](https://www.youtube.com/watch?v=opu6NofnyWg))
+- Optional: put your LEDBlinky activation keys inside `plugins/LEDBlinky`
+- Generate `mame.xml`: to to the mame folder (`emulators/mame`), open a `PowerShell` and type `.\mamee64.exe -listxml > mame.xml`. Move `mame.xml` into `plugins/ledblinky-integration`. *(Need to find a better way but file is too big for github)*
+
+## Options
+
+- You can change the `frontend_default_animation` is `plugins/ledblinky-integration/config.cmd`
+
+
+## TODO
+
+- I don't like the fact that I'm using a `.bat` file to save config, should be a `.init` instead.
+- Find better way for `mame.xml`
+- Need to find a way to start LEDBlinky when CoinOps start
+- Need to find a way to stop LEDBlinky when CoinOps exit
+- Need to test if servostick is working
+
 
 ## Notes
 
