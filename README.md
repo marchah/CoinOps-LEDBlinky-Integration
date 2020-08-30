@@ -18,6 +18,7 @@
 
 ## TODO
 
+- A terminal is visible when a game start, need to fix that
 - I don't like the fact that I'm using a `.bat` file to save config, should be a `.init` instead.
 - Find better way for `mame.xml`
 - Need to find a way to start LEDBlinky when CoinOps start
