@@ -23,7 +23,6 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 - Need to find a way to start LEDBlinky when CoinOps start
 - Need to find a way to stop LEDBlinky when CoinOps exit
 - Need to test if servostick is working
-- Move `plugins` folder outside of each Gems folder to only have one, will make maintenance easier
 
 ## Testing
 
