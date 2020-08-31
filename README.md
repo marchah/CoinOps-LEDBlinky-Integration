@@ -25,10 +25,6 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 - Need to test if servostick is working
 - Move `plugins` folder outside of each Gems folder to only have one, will make maintenance easier
 
-### Gems
-
-- have instructions to launch game `Sonic` on Genesis and `GNC` on SNES, didn't see them on the frontend so not handle by LEDBlinky yet.
-
 ## Testing
 
 ### Gems
