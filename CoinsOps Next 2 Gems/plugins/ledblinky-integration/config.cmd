@@ -1,1 +1,0 @@
-set frontend_default_animation=random.lwax
