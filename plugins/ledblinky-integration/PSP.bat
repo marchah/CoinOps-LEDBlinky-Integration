@@ -7,7 +7,7 @@ cd..\LEDBlinky
 start "" LEDBlinky.exe %rom_name% RETROARCH
 
 cd..\..\emulators\RetroArchXiso
-start /wait "" retroarch.exe -L cores\ppsspp_libretro.dll %rom_path%
+start /wait /B "" retroarch.exe -L cores\ppsspp_libretro.dll %rom_path%
 
 :WAITLOOP
 tasklist /FI "IMAGENAME eq retroarch.exe" 2>NUL | find /I /N "retroarch.exe">NUL
