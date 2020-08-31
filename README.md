@@ -18,7 +18,6 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 
 ## TODO
 
-- A terminal is visible when a game start, need to fix that
 - I don't like the fact that I'm using a `.bat` file to save config, should be a `.ini` instead.
 - Create a `.bat` file to generate `mame.xml`
 - Need to find a way to start LEDBlinky when CoinOps start
@@ -30,19 +29,19 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 
 ### Gems
 
-- **Genesis** -> __??? (untested)__
+- **Genesis** -> **??? (untested)**
 - **mame** -> Alien Storm
-- **SNES** -> __??? (untested)__
+- **SNES** -> **??? (untested)**
 
 ### Gems Plus
 
 - **C64** -> Uridium
 - **DC** -> Border Down
-- **DK** -> __??? (untested)__
+- **DK** -> **??? (untested)**
 - **Dolphin** -> F-Zero GX
 - **Genesis** -> Eco The Dolphin
 - **mame** -> Alien Storm
-- **mameNEW** -> __??? (untested)__
+- **mameNEW** -> **??? (untested)**
 - **N64** -> Super Mario 64
 - **PSP** -> Ultimate Ghosts 'n Goblins
 - **PSX** -> Crash Bandicoot 2
