@@ -23,7 +23,6 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 - Need to find a way to start LEDBlinky when CoinOps start
 - Need to find a way to stop LEDBlinky when CoinOps exit
 - Need to test if servostick is working
-- Add conf for Border Down
 - Move `plugins` folder outside of each Gems folder to only have one, will make maintenance easier
 
 ### Gems
@@ -34,25 +33,25 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 
 ### Gems
 
-- **Genesis** -> ???
+- **Genesis** -> __??? (untested)__
 - **mame** -> Alien Storm
-- **SNES** -> ???
+- **SNES** -> __??? (untested)__
 
 ### Gems Plus
 
-- **C64** -> Uridium (not working)
-- **DC** -> Border Down (working but no color in conf)
-- **DK** -> ???
-- **Dolphin** -> F-Zero GX (not working)
-- **Genesis** -> Eco The Dolphin (not working)
+- **C64** -> Uridium
+- **DC** -> Border Down
+- **DK** -> __??? (untested)__
+- **Dolphin** -> F-Zero GX
+- **Genesis** -> Eco The Dolphin
 - **mame** -> Alien Storm
-- **mameNEW** -> ???
-- **N64** -> Super Mario 64 (not working)
-- **PSP** -> Ultimate Ghosts 'n Goblins (not working)
-- **PSX** -> Crash Bandicoot 2 (not working)
-- **SegaCD** -> Sonic CD (not working)
-- **SNES** -> Axelay (working but no color in conf)
-- **SNESalt** -> Super Mario World II (not working)
+- **mameNEW** -> __??? (untested)__
+- **N64** -> Super Mario 64
+- **PSP** -> Ultimate Ghosts 'n Goblins
+- **PSX** -> Crash Bandicoot 2
+- **SegaCD** -> Sonic CD
+- **SNES** -> Axelay
+- **SNESalt** -> Super Mario World II
 
 ## Notes
 
