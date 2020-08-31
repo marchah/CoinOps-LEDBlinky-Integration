@@ -7,7 +7,7 @@ cd..\LEDBlinky
 start "" LEDBlinky.exe %rom_name% MAME
 
 cd..\..\emulators\mame
-start /wait "" mameNEW64.exe %rom_name%
+start /wait /B "" mameNEW64.exe %rom_name%
 
 :WAITLOOP
 tasklist /FI "IMAGENAME eq mameNEW64.exe" 2>NUL | find /I /N "mameNEW64.exe">NUL
