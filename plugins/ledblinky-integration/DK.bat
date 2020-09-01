@@ -5,7 +5,9 @@ set rom_name=%2
 
 
 cd..\LEDBlinky
-start "" LEDBlinky.exe gnw_dkong MAME
+if %is_ledblinky_activated%==1 (
+  start "" LEDBlinky.exe gnw_dkong MAME
+)
 
 cd..\..\emulators\mame
 start /wait /B "" mameNEW64.exe gnw_dkong
@@ -21,4 +23,6 @@ goto WAITLOOP
 
 :NOTRUNNING
 cd..\..\plugins\LEDBlinky
-start "" LEDBlinky.exe %frontend_default_animation%
+if %is_ledblinky_activated%==1 (
+  start "" LEDBlinky.exe %frontend_default_animation%
+)

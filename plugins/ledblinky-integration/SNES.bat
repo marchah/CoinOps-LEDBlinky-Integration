@@ -4,7 +4,9 @@ set rom_path=%1
 set rom_name=%2
 
 cd..\LEDBlinky
-start "" LEDBlinky.exe %rom_name% MAME
+if %is_ledblinky_activated%==1 (
+  start "" LEDBlinky.exe %rom_name% MAME
+)
 
 cd..\..\emulators\mame
 start /wait /B "" mame.exe snes -cart %rom_path% -view %rom_name%
@@ -20,4 +22,6 @@ goto WAITLOOP
 
 :NOTRUNNING
 cd..\..\plugins\LEDBlinky
-start "" LEDBlinky.exe %frontend_default_animation%
+if %is_ledblinky_activated%==1 (
+  start "" LEDBlinky.exe %frontend_default_animation%
+)
