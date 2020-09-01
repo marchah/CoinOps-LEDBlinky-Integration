@@ -15,7 +15,7 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 ## Usage
 
 - Start: double click on `plugins/ledblinky-integration/StartLEDBlinky.bat`
-- Exit: double click on `plugins/ledblinky-integration/ExitLEDBlinky.bat` (you can also exit it on the "minify" [idk the real name] taskbar)
+- Stop: double click on `plugins/ledblinky-integration/StopLEDBlinky.bat` (you can also exit it on the "minify" [idk the real name] taskbar)
 
 ## Options
 
@@ -26,6 +26,7 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 
 - Add flag to activate/deactivate LEDBlinky.
 - Fix a better animation that `random.lwax`, it's very annoying
+- Deactivate LEDBlinky voice at startup
 - I don't like the fact that I'm using a `.bat` file to save config, should be a `.ini` instead.
 - Create a `.bat` file to generate `mame.xml`
 - Need to find a way to start LEDBlinky when CoinOps start
