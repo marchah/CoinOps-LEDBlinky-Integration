@@ -12,6 +12,11 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 - Optional: put your LEDBlinky activation keys inside `plugins/LEDBlinky`
 - Generate `mame.xml`: to to the mame folder (`emulators/mame`), open a `PowerShell` and type `.\mamee64.exe -listxml > mame.xml`. Move `mame.xml` into `plugins/ledblinky-integration`. _(Need to find a better way but file is too big for github)_
 
+## Usage
+
+- Start: double click on `plugins/ledblinky-integration/StartLEDBlinky.bat`
+- Exit: double click on `plugins/ledblinky-integration/ExitLEDBlinky.bat` (you can also exit it on the "minify" [idk the real name] taskbar)
+
 ## Options
 
 - You can deactivated LEDBlinky by setting `is_ledblinky_activated` to `0` in `plugins/ledblinky-integration/config.cmd`
