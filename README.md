@@ -14,7 +14,7 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 
 ## Usage
 
-- Start: double click on `plugins/ledblinky-integration/StartLEDBlinky.bat`
+- Start: double click on `plugins/ledblinky-integration/StartLEDBlinky.bat` (LEDBlinky will also start when you launch your any game)
 - Stop: double click on `plugins/ledblinky-integration/StopLEDBlinky.bat` (you can also exit it on the "minify" [idk the real name] taskbar)
 
 ## Options
