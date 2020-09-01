@@ -14,6 +14,7 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 
 ## Options
 
+- You can deactivated LEDBlinky by setting `is_ledblinky_activated` to `0` in `plugins/ledblinky-integration/config.cmd`
 - You can change the `frontend_default_animation` is `plugins/ledblinky-integration/config.cmd`
 
 ## TODO
@@ -26,6 +27,10 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 - Need to test if servostick is working
 
 ## Testing
+
+What is you don't have LEDBlinky capable hardware and still want to help testing? Well good news you can.
+Just follow the install instructions and set `is_ledblinky_activated` to `0` in `plugins/ledblinky-integration/config.cmd`.
+You will be able to play your games like a stock Gems and it will help test that the customs `bat` launchers are working properly.
 
 ### Gems
 

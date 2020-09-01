@@ -1,1 +1,2 @@
+set is_ledblinky_activated=1
 set frontend_default_animation=random.lwax

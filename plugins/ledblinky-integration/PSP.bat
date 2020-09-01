@@ -4,7 +4,9 @@ set rom_path=%1
 set rom_name=%2
 
 cd..\LEDBlinky
-start "" LEDBlinky.exe %rom_name% RETROARCH
+if %is_ledblinky_activated%==1 (
+  start "" LEDBlinky.exe %rom_name% RETROARCH
+)
 
 cd..\..\emulators\RetroArchXiso
 start /wait /B "" retroarch.exe -L cores\ppsspp_libretro.dll %rom_path%
@@ -20,4 +22,6 @@ goto WAITLOOP
 
 :NOTRUNNING
 cd..\..\plugins\LEDBlinky
-start "" LEDBlinky.exe %frontend_default_animation%
+if %is_ledblinky_activated%==1 (
+  start "" LEDBlinky.exe %frontend_default_animation%
+)
