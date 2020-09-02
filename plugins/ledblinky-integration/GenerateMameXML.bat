@@ -1,5 +1,5 @@
 @echo off
 
 cd ..\..\emulators\MAME
-start /wait "" mame64.exe -listxml > mameTest.xml
+mame64.exe -listxml 1>mameTest.xml
 move mameTest.xml ..\..\plugins\ledblinky-integration\
