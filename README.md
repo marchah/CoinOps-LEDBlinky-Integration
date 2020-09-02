@@ -10,11 +10,11 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 - Drap and drop the folder `plugins` into your Gems root folder
 - Generate your `LEDBlinkyInputMap.xml` using `plugins/LEDBlinky/GenLEDBlinkyInputMap.exe` (check this video for more infos [Instructions](https://www.youtube.com/watch?v=opu6NofnyWg))
 - Optional: put your LEDBlinky activation keys inside `plugins/LEDBlinky`
-- Generate `mame.xml`: to to the mame folder (`emulators/mame`), open a `PowerShell` and type `.\mamee64.exe -listxml > mame.xml`. Move `mame.xml` into `plugins/ledblinky-integration`. _(Need to find a better way but file is too big for github)_
+- Generate `mame.xml`: go to the folder `plugins/ledblinky-integration` and double click on `GenerateMameXML.bat`
 
 ## Usage
 
-- Start: double click on `plugins/ledblinky-integration/StartLEDBlinky.bat` (LEDBlinky will also start when you launch your any game)
+- Start: double click on `plugins/ledblinky-integration/StartLEDBlinky.bat` (LEDBlinky will also start when you launch any game)
 - Stop: double click on `plugins/ledblinky-integration/StopLEDBlinky.bat` (you can also exit it on the "minify" [idk the real name] taskbar)
 
 ## Options
