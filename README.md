@@ -24,7 +24,6 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 
 ## TODO
 
-- Add flag to activate/deactivate LEDBlinky.
 - Fix a better animation that `random.lwax`, it's very annoying
 - Deactivate LEDBlinky voice at startup
 - I don't like the fact that I'm using a `.bat` file to save config, should be a `.ini` instead.
