@@ -22,6 +22,15 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 - You can deactivated LEDBlinky by setting `is_ledblinky_activated` to `0` in `plugins/ledblinky-integration/config.cmd`
 - You can change the `frontend_default_animation` is `plugins/ledblinky-integration/config.cmd`
 
+## Console Color Rules
+
+_If you have a better idea don't hesitate to create a ticket_
+
+- Shoulder: `White`
+- Trigger: `Brown`
+- Select: `Orange`
+- Start: `Lime`
+
 ## TODO
 
 - Fix a better animation that `random.lwax`, it's very annoying
