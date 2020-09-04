@@ -147,42 +147,63 @@
         <control name="UI_PAUSE" voice="" alwaysActive="1" color="Yellow" inputCodes="KEY_RLPAUSE|KEY_MAMEPAUSE"/>
         <control name="UI_SELECT" voice="" alwaysActive="1" color="Green" inputCodes="KEY_SELECTKEY"/>
       </player>
+    </controlGroup>
+    <controlGroup groupName="crash_bandicoot_2_-_cortex_strikes_back_(usa)" voice="Crash Bandicoot 2 - Cortex Strikes Back (USA)" numPlayers="1" alternating="0" jukebox="0">
       <player number="1">
-        <control name="P1_BUTTON1" voice="Cross" alwaysActive="0" color="Magenta" inputCodes="JOYCODE_1_BUTTON1"/>
-        <control name="P1_BUTTON2" voice="Circle" alwaysActive="0" color="Green" inputCodes="JOYCODE_1_BUTTON2"/>
-        <control name="P1_BUTTON3" voice="Triangle" alwaysActive="0" color="Blue" inputCodes="JOYCODE_1_BUTTON3"/>
-        <control name="P1_BUTTON4" voice="Square" alwaysActive="0" color="Red" inputCodes="JOYCODE_1_BUTTON4"/>
-        <control name="P1_BUTTON5" voice="R1" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_BUTTON5"/>
-        <control name="P1_BUTTON6" voice="L1" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_BUTTON6"/>
-        <control name="P1_BUTTON7" voice="R2" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_BUTTON7"/>
-        <control name="P1_BUTTON8" voice="L2" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_BUTTON8"/>
+        <control name="P1_BUTTON1" voice="Cross" alwaysActive="0" color="Blue" inputCodes="JOYCODE_1_BUTTON1"/>
+        <control name="P1_BUTTON2" voice="Circle" alwaysActive="0" color="Red" inputCodes="JOYCODE_1_BUTTON2"/>
+        <control name="P1_BUTTON3" voice="Triangle" alwaysActive="0" color="Green" inputCodes="JOYCODE_1_BUTTON3"/>
+        <control name="P1_BUTTON4" voice="Square" alwaysActive="0" color="Magenta" inputCodes="JOYCODE_1_BUTTON4"/>
+        <control name="P1_BUTTON5" voice="R1" alwaysActive="0" color="White" inputCodes="JOYCODE_1_BUTTON5"/>
         <control name="P1_JOYSTICK_UP" voice="Up" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_UP"/>
         <control name="P1_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_DOWN"/>
         <control name="P1_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_LEFT"/>
         <control name="P1_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_RIGHT"/>
-        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_START"/>
-        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_SELECT"/>
+        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_1_START"/>
+        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_1_SELECT"/>
+      </player>
+    </controlGroup>
+    <controlGroup groupName="castlevania_-_symphony_of_the_night" voice="Castlevania - Symphony Of The Night" numPlayers="1" alternating="0" jukebox="0">
+      <player number="1">
+        <control name="P1_BUTTON1" voice="Cross" alwaysActive="0" color="Blue" inputCodes="JOYCODE_1_BUTTON1"/>
+        <control name="P1_BUTTON2" voice="Circle" alwaysActive="0" color="Red" inputCodes="JOYCODE_1_BUTTON2"/>
+        <control name="P1_BUTTON3" voice="Triangle" alwaysActive="0" color="Green" inputCodes="JOYCODE_1_BUTTON3"/>
+        <control name="P1_BUTTON4" voice="Square" alwaysActive="0" color="Magenta" inputCodes="JOYCODE_1_BUTTON4"/>
+        <control name="P1_BUTTON5" voice="R1" alwaysActive="0" color="White" inputCodes="JOYCODE_1_BUTTON5"/>
+        <control name="P1_BUTTON6" voice="L1" alwaysActive="0" color="Brown" inputCodes="JOYCODE_1_BUTTON6"/>
+        <control name="P1_BUTTON7" voice="R2" alwaysActive="0" color="White" inputCodes="JOYCODE_1_BUTTON7"/>
+        <control name="P1_JOYSTICK_UP" voice="Up" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_UP"/>
+        <control name="P1_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_DOWN"/>
+        <control name="P1_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_LEFT"/>
+        <control name="P1_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_RIGHT"/>
+        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_1_START"/>
+        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_1_SELECT"/>
+      </player>
+    </controlGroup>
+    <controlGroup groupName="tekken_3_(usa)" voice="Tekken 3 (USA)" numPlayers="2" alternating="0" jukebox="0">
+      <player number="1">
+        <control name="P1_BUTTON1" voice="Cross" alwaysActive="0" color="Blue" inputCodes="JOYCODE_1_BUTTON1"/>
+        <control name="P1_BUTTON2" voice="Circle" alwaysActive="0" color="Red" inputCodes="JOYCODE_1_BUTTON2"/>
+        <control name="P1_BUTTON3" voice="Triangle" alwaysActive="0" color="Green" inputCodes="JOYCODE_1_BUTTON3"/>
+        <control name="P1_BUTTON4" voice="Square" alwaysActive="0" color="Magenta" inputCodes="JOYCODE_1_BUTTON4"/>
+        <control name="P1_JOYSTICK_UP" voice="Up" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_UP"/>
+        <control name="P1_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_DOWN"/>
+        <control name="P1_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_LEFT"/>
+        <control name="P1_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_RIGHT"/>
+        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_1_START"/>
+        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_1_SELECT"/>
       </player>
       <player number="2">
-        <control name="P2_BUTTON1" voice="Cross" alwaysActive="0" color="Magenta" inputCodes="JOYCODE_2_BUTTON1"/>
-        <control name="P2_BUTTON2" voice="Circle" alwaysActive="0" color="Green" inputCodes="JOYCODE_2_BUTTON2"/>
-        <control name="P2_BUTTON3" voice="Triangle" alwaysActive="0" color="Blue" inputCodes="JOYCODE_2_BUTTON3"/>
-        <control name="P2_BUTTON4" voice="Square" alwaysActive="0" color="Red" inputCodes="JOYCODE_2_BUTTON4"/>
-        <control name="P2_BUTTON5" voice="R1" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_BUTTON5"/>
-        <control name="P2_BUTTON6" voice="L1" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_BUTTON6"/>
-        <control name="P2_BUTTON7" voice="R2" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_BUTTON7"/>
-        <control name="P2_BUTTON8" voice="L2" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_BUTTON8"/>
+        <control name="P2_BUTTON1" voice="Cross" alwaysActive="0" color="Blue" inputCodes="JOYCODE_2_BUTTON1"/>
+        <control name="P2_BUTTON2" voice="Circle" alwaysActive="0" color="Red" inputCodes="JOYCODE_2_BUTTON2"/>
+        <control name="P2_BUTTON3" voice="Triangle" alwaysActive="0" color="Green" inputCodes="JOYCODE_2_BUTTON3"/>
+        <control name="P2_BUTTON4" voice="Square" alwaysActive="0" color="Magenta" inputCodes="JOYCODE_2_BUTTON4"/>
         <control name="P2_JOYSTICK_UP" voice="Up" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_UP"/>
         <control name="P2_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_DOWN"/>
         <control name="P2_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_LEFT"/>
         <control name="P2_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_RIGHT"/>
-        <control name="P2_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_START"/>
-        <control name="P2_BUTTON10" voice="Select" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_SELECT"/>
-      </player>
-    </controlGroup>
-    <controlGroup groupName="crash_bandicoot_2_-_cortex_strikes_back_(usa)" voice="Crash Bandicoot 2 - Cortex Strikes Back (USA)" numPlayers="1" alternating="0" jukebox="0">
-      <player number="0">
-        <control name="CONTROL_JOY8WAY" voice="8-Way Joystick" color="White" inputCodes=""/>
+        <control name="P2_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_2_START"/>
+        <control name="P2_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_2_SELECT"/>
       </player>
     </controlGroup>
   </emulator>
