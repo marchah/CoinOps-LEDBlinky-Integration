@@ -5,7 +5,7 @@ set rom_name=%2
 
 cd..\LEDBlinky
 if %is_ledblinky_activated%==1 (
-  start "" LEDBlinky.exe %rom_name% MAME
+  start "" LEDBlinky.exe %rom_name% Sony_Playstation
 )
 
 cd..\..\emulators\MAME
