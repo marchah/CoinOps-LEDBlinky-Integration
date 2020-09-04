@@ -231,6 +231,44 @@
       </player>
     </controlGroup>
   </emulator>
+    <emulator emuname="Sega_CD" emuDesc="Sega CD">
+    <controlGroup groupName="DEFAULT" voice="" numPlayers="2" alternating="0" defaultActive="48,48,48,48" defaultInactive="0,0,0,0" jukebox="0" ledwizGlobalPulse="3">
+      <player number="0">
+        <control name="CONTROL_JOY8WAY" voice="8-Way Joystick" primaryControl="1" alwaysActive="0" color="0,0,0" inputCodes=""/>
+        <control name="UI_CANCEL" voice="" alwaysActive="1" color="Red" inputCodes="KEY_EXITGAME"/>
+        <control name="UI_PAUSE" voice="" alwaysActive="1" color="Yellow" inputCodes="KEY_RLPAUSE|KEY_MAMEPAUSE"/>
+        <control name="UI_SELECT" voice="" alwaysActive="1" color="Green" inputCodes="KEY_SELECTKEY"/>
+      </player>
+      <player number="1">
+        <control name="P1_BUTTON1" voice="Button A" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_BUTTON1"/>
+        <control name="P1_BUTTON2" voice="Button B" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_BUTTON2"/>
+        <control name="P1_BUTTON3" voice="Button C" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_BUTTON3"/>
+        <control name="P1_BUTTON4" voice="Button X" alwaysActive="0" color="White" inputCodes="JOYCODE_1_BUTTON4"/>
+        <control name="P1_BUTTON5" voice="Button Y" alwaysActive="0" color="White" inputCodes="JOYCODE_1_BUTTON5"/>
+        <control name="P1_BUTTON6" voice="Button Z" alwaysActive="0" color="White" inputCodes="JOYCODE_1_BUTTON6"/>
+        <control name="P1_JOYSTICK_UP" voice="Up" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_UP"/>
+        <control name="P1_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_DOWN"/>
+        <control name="P1_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_LEFT"/>
+        <control name="P1_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_RIGHT"/>
+        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_1_START"/>
+        <control name="P1_BUTTON10" voice="Mode" alwaysActive="0" color="Orange" inputCodes="JOYCODE_1_SELECT"/>
+      </player>
+      <player number="2">
+        <control name="P2_BUTTON1" voice="Button A" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_BUTTON1"/>
+        <control name="P2_BUTTON2" voice="Button B" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_BUTTON2"/>
+        <control name="P2_BUTTON3" voice="Button C" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_BUTTON3"/>
+        <control name="P2_BUTTON4" voice="Button X" alwaysActive="0" color="White" inputCodes="JOYCODE_2_BUTTON4"/>
+        <control name="P2_BUTTON5" voice="Button Y" alwaysActive="0" color="White" inputCodes="JOYCODE_2_BUTTON5"/>
+        <control name="P2_BUTTON6" voice="Button Z" alwaysActive="0" color="White" inputCodes="JOYCODE_2_BUTTON6"/>
+        <control name="P2_JOYSTICK_UP" voice="Up" color="Black" alwaysActive="0" inputCodes="JOYCODE_2_UP"/>
+        <control name="P2_JOYSTICK_DOWN" voice="Down" color="Black" alwaysActive="0" inputCodes="JOYCODE_2_DOWN"/>
+        <control name="P2_JOYSTICK_LEFT" voice="Left" color="Black" alwaysActive="0" inputCodes="JOYCODE_2_LEFT"/>
+        <control name="P2_JOYSTICK_RIGHT" voice="Right" color="Black" alwaysActive="0" inputCodes="JOYCODE_2_RIGHT"/>
+        <control name="P2_BUTTON9" voice="Start" color="Lime" alwaysActive="0" inputCodes="JOYCODE_2_START"/>
+        <control name="P2_BUTTON10" voice="Mode" color="Orange" alwaysActive="0" inputCodes="JOYCODE_2_SELECT"/>
+      </player>
+    </controlGroup>
+  </emulator>
   <emulator emuname="OTHER" emuDesc="">
     <controlGroup groupName="DEFAULT" voice="" numPlayers="2" alternating="0" defaultActive="48,48,48,48" defaultInactive="0,0,0,0">
       <player number="0">
