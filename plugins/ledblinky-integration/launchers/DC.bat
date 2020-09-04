@@ -1,15 +1,15 @@
 @echo off
-call config.cmd
+call ..\config.cmd
 set rom_path=%1
 set rom_name=%2
 
-cd..\LEDBlinky
+cd..\..\LEDBlinky
 if %is_ledblinky_activated%==1 (
-  start "" LEDBlinky.exe %rom_name% Sony_PSP
+  start "" LEDBlinky.exe %rom_name% Sega_Dreamcast
 )
 
 cd..\..\emulators\RetroArchXiso
-start /wait /B "" retroarch.exe -L cores\ppsspp_libretro.dll %rom_path%
+start /wait /B "" retroarch.exe -L cores\flycast_libretro.dll %rom_path%
 
 :WAITLOOP
 tasklist /FI "IMAGENAME eq retroarch.exe" 2>NUL | find /I /N "retroarch.exe">NUL

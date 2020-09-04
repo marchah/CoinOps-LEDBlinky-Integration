@@ -1,19 +1,18 @@
 @echo off
-call config.cmd
+call ..\config.cmd
 set rom_path=%1
 set rom_name=%2
 
-
-cd..\LEDBlinky
+cd..\..\LEDBlinky
 if %is_ledblinky_activated%==1 (
-  start "" LEDBlinky.exe gnw_dkong MAME
+  start "" LEDBlinky.exe %rom_name% Sony_Playstation
 )
 
-cd..\..\emulators\mame
-start /wait /B "" mameNEW64.exe gnw_dkong
+cd..\..\emulators\MAME
+start /wait /B "" mameNEW64.exe psu -cdrom %rom_path%
 
 :WAITLOOP
-tasklist /FI "IMAGENAME eq mame64.exe" 2>NUL | find /I /N "mame64.exe">NUL
+tasklist /FI "IMAGENAME eq mameNEW64.exe" 2>NUL | find /I /N "mameNEW64.exe">NUL
 if "%ERRORLEVEL%"=="0" goto RUNNING
 goto NOTRUNNING
 

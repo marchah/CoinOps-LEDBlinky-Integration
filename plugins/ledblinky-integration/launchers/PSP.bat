@@ -1,19 +1,18 @@
 @echo off
-call config.cmd
+call ..\config.cmd
 set rom_path=%1
 set rom_name=%2
 
-
-cd..\LEDBlinky
+cd..\..\LEDBlinky
 if %is_ledblinky_activated%==1 (
-  start "" LEDBlinky.exe %rom_name% Commodore_64
+  start "" LEDBlinky.exe %rom_name% Sony_PSP
 )
 
-cd..\..\emulators\mame
-start /wait /B "" mame64.exe C64 -flop %rom_path% -state 0 -natural
+cd..\..\emulators\RetroArchXiso
+start /wait /B "" retroarch.exe -L cores\ppsspp_libretro.dll %rom_path%
 
 :WAITLOOP
-tasklist /FI "IMAGENAME eq mame64.exe" 2>NUL | find /I /N "mame64.exe">NUL
+tasklist /FI "IMAGENAME eq retroarch.exe" 2>NUL | find /I /N "retroarch.exe">NUL
 if "%ERRORLEVEL%"=="0" goto RUNNING
 goto NOTRUNNING
 
