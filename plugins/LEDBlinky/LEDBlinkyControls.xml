@@ -249,7 +249,7 @@
       </player>
     </controlGroup>
   </emulator>
-  <emulator emuname="Super_Nintendo_Entertainment_System" emuDesc="" romDefaultNameVoice="0" ignoreGameQuitCommand="0" emulatorIsMAME="0">
+  <emulator emuname="Super_Nintendo_Entertainment_System" emuDesc="SNES Console" romDefaultNameVoice="0" ignoreGameQuitCommand="0" emulatorIsMAME="0">
     <controlGroup groupName="DEFAULT" voice="" numPlayers="2" alternating="0" defaultActive="48,48,48,48" defaultInactive="0,0,0,0" jukebox="0" ledwizGlobalPulse="3">
       <player number="0">
         <control name="CONTROL_JOY8WAY" voice="8-Way Joystick" primaryControl="1" alwaysActive="0" color="0,0,0" inputCodes=""/>
@@ -287,7 +287,7 @@
       </player>
     </controlGroup>
   </emulator>
-   <emulator emuname="Sega_Dreamcast" emuDesc="Sega Dreamcast">
+   <emulator emuname="Sega_Dreamcast" emuDesc="Sega Dreamcast Console">
     <controlGroup groupName="DEFAULT" voice="" numPlayers="2" alternating="0" defaultActive="48,48,48,48" defaultInactive="0,0,0,0" jukebox="0" ledwizGlobalPulse="3">
       <player number="0">
         <control name="CONTROL_JOY8WAY" voice="XBOX 3 60 Controller" primaryControl="1" alwaysActive="0" color="0,0,0" inputCodes=""/>
@@ -325,7 +325,7 @@
       </player>
     </controlGroup>
   </emulator>
-  <emulator emuname="Sega_CD" emuDesc="Sega CD">
+  <emulator emuname="Sega_CD" emuDesc="Sega CD Console">
     <controlGroup groupName="DEFAULT" voice="" numPlayers="2" alternating="0" defaultActive="48,48,48,48" defaultInactive="0,0,0,0" jukebox="0" ledwizGlobalPulse="3">
       <player number="0">
         <control name="CONTROL_JOY8WAY" voice="8-Way Joystick" primaryControl="1" alwaysActive="0" color="0,0,0" inputCodes=""/>
@@ -363,7 +363,7 @@
       </player>
     </controlGroup>
   </emulator>
-  <emulator emuname="Sega_Genesis" emuDesc="Sega Genesis / Megadrive">
+  <emulator emuname="Sega_Genesis" emuDesc="Sega Genesis / Megadrive Console">
     <controlGroup groupName="DEFAULT" voice="" numPlayers="2" alternating="0" defaultActive="48,48,48,48" defaultInactive="0,0,0,0" jukebox="0" ledwizGlobalPulse="3">
       <player number="0">
         <control name="CONTROL_JOY8WAY" voice="8-Way Joystick" primaryControl="1" alwaysActive="0" color="0,0,0" inputCodes=""/>
@@ -401,7 +401,7 @@
       </player>
     </controlGroup>
   </emulator>
-  <emulator emuname="Sony_Playstation" emuDesc="PSX">
+  <emulator emuname="Sony_Playstation" emuDesc="PSX Console">
     <controlGroup groupName="DEFAULT" voice="" numPlayers="2" alternating="0" defaultActive="48,48,48,48" defaultInactive="0,0,0,0" jukebox="0" ledwizGlobalPulse="3">
       <player number="0">
         <control name="CONTROL_JOY8WAY" voice="8-Way Joystick" primaryControl="1" alwaysActive="0" color="0,0,0" inputCodes=""/>
@@ -501,7 +501,7 @@
       </player>
     </controlGroup>
   </emulator>
-  <emulator emuname="Sony_PSP" emuDesc="PSP">
+  <emulator emuname="Sony_PSP" emuDesc="PSP Console">
     <controlGroup groupName="DEFAULT" voice="" numPlayers="1" alternating="0" defaultActive="48,48,48,48" defaultInactive="0,0,0,0" jukebox="0" ledwizGlobalPulse="3">
       <player number="0">
         <control name="CONTROL_JOY8WAY" voice="8-Way Joystick" primaryControl="1" alwaysActive="0" color="0,0,0" inputCodes=""/>
