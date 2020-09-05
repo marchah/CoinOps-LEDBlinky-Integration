@@ -6,8 +6,8 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 
 ## Installation
 
-- Select your Gems version folder and drap & drop the files from `launchers.windows` in your Gems `launchers.windows` folder.
-- Drap and drop the folder `plugins` into your Gems root folder
+- Select your Gems version folder and drag & drop the files from `launchers.windows` in your Gems `launchers.windows` folder.
+- Drag and drop the folder `plugins` into your Gems root folder
 - Generate your `LEDBlinkyInputMap.xml` using `plugins/LEDBlinky/GenLEDBlinkyInputMap.exe` (check this video for more infos [Instructions](https://www.youtube.com/watch?v=opu6NofnyWg))
 - Optional: put your LEDBlinky activation keys inside `plugins/LEDBlinky`
 - Generate `mame.xml`: go to the folder `plugins/ledblinky-integration/scripts` and double click on `GenerateMameXML.bat`
