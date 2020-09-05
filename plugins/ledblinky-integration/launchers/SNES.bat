@@ -1,18 +1,18 @@
 @echo off
-call config.cmd
-set rom_name=%1
+call ..\config.cmd
+set rom_path=%1
+set rom_name=%2
 
-
-cd..\LEDBlinky
+cd..\..\LEDBlinky
 if %is_ledblinky_activated%==1 (
-  start "" LEDBlinky.exe %rom_name% MAME
+  start "" LEDBlinky.exe %rom_name% Super_Nintendo_Entertainment_System
 )
 
 cd..\..\emulators\mame
-start /wait /B "" mame64.exe %rom_name%
+start /wait /B "" mame.exe snes -cart %rom_path% -view %rom_name%
 
 :WAITLOOP
-tasklist /FI "IMAGENAME eq mame64.exe" 2>NUL | find /I /N "mame64.exe">NUL
+tasklist /FI "IMAGENAME eq mame.exe" 2>NUL | find /I /N "mame.exe">NUL
 if "%ERRORLEVEL%"=="0" goto RUNNING
 goto NOTRUNNING
 

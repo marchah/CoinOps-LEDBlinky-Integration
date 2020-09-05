@@ -1,7 +1,7 @@
 @echo off
-call config.cmd
+call ..\config.cmd
 
 if %is_ledblinky_activated%==1 (
-  cd..\LEDBlinky
+  cd..\..\LEDBlinky
   start "" LEDBlinky.exe 2
 )

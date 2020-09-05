@@ -1,18 +1,18 @@
 @echo off
-call config.cmd
+call ..\config.cmd
 set rom_path=%1
 set rom_name=%2
 
-cd..\LEDBlinky
+cd..\..\LEDBlinky
 if %is_ledblinky_activated%==1 (
-  start "" LEDBlinky.exe %rom_name% Sega_Dreamcast
+  start "" LEDBlinky.exe %rom_name% Sega_Genesis
 )
 
-cd..\..\emulators\RetroArchXiso
-start /wait /B "" retroarch.exe -L cores\flycast_libretro.dll %rom_path%
+cd..\..\emulators\MAME
+start /wait /B "" mame64.exe genesis -cart %rom_path% -view rom_name
 
 :WAITLOOP
-tasklist /FI "IMAGENAME eq retroarch.exe" 2>NUL | find /I /N "retroarch.exe">NUL
+tasklist /FI "IMAGENAME eq mame64.exe" 2>NUL | find /I /N "mame64.exe">NUL
 if "%ERRORLEVEL%"=="0" goto RUNNING
 goto NOTRUNNING
 

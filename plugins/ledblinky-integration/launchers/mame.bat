@@ -1,18 +1,18 @@
 @echo off
-call config.cmd
+call ..\config.cmd
 set rom_name=%1
 
 
-cd..\LEDBlinky
+cd..\..\LEDBlinky
 if %is_ledblinky_activated%==1 (
   start "" LEDBlinky.exe %rom_name% MAME
 )
 
 cd..\..\emulators\mame
-start /wait /B "" mameNEW64.exe %rom_name%
+start /wait /B "" mame64.exe %rom_name%
 
 :WAITLOOP
-tasklist /FI "IMAGENAME eq mameNEW64.exe" 2>NUL | find /I /N "mameNEW64.exe">NUL
+tasklist /FI "IMAGENAME eq mame64.exe" 2>NUL | find /I /N "mame64.exe">NUL
 if "%ERRORLEVEL%"=="0" goto RUNNING
 goto NOTRUNNING
 
