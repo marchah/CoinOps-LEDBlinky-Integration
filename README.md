@@ -28,8 +28,6 @@ _If you have a better idea don't hesitate to create a ticket_
 
 - Shoulder: `White`
 - Trigger: `Brown`
-- Select: `Orange`
-- Start: `Lime`
 
 ## TODO
 

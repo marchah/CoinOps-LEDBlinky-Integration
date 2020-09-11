@@ -86,8 +86,8 @@
         <control name="P1_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_DOWN"/>
         <control name="P1_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_LEFT"/>
         <control name="P1_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_RIGHT"/>
-        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_1_START"/>
-        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_1_SELECT"/>
+        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_START"/>
+        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_SELECT"/>
       </player>
       <player number="2">
         <control name="P2_BUTTON1" voice="Fire Button" color="Red" alwaysActive="0" inputCodes="JOYCODE_2_BUTTON1"/>
@@ -95,8 +95,8 @@
         <control name="P2_JOYSTICK_DOWN" voice="Down" color="Black" alwaysActive="0" inputCodes="JOYCODE_2_DOWN"/>
         <control name="P2_JOYSTICK_LEFT" voice="Left" color="Black" alwaysActive="0" inputCodes="JOYCODE_2_LEFT"/>
         <control name="P2_JOYSTICK_RIGHT" voice="Right" color="Black" alwaysActive="0" inputCodes="JOYCODE_2_RIGHT"/>
-        <control name="P2_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_2_START"/>
-        <control name="P2_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_2_SELECT"/>
+        <control name="P2_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_START"/>
+        <control name="P2_BUTTON10" voice="Select" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_SELECT"/>
       </player>
     </controlGroup>
     <controlGroup groupName="uridium" voice="Uridium" numPlayers="1" alternating="0" jukebox="0" ledwizGlobalPulse="3" defaultActive="48,48,48,48" defaultInactive="0,0,0,0">
@@ -112,8 +112,8 @@
         <control name="P1_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_DOWN"/>
         <control name="P1_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_LEFT"/>
         <control name="P1_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_RIGHT"/>
-        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_1_START"/>
-        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_1_SELECT"/>
+        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_START"/>
+        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_SELECT"/>
       </player>
     </controlGroup>
   </emulator>
@@ -268,8 +268,8 @@
         <control name="P1_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_DOWN"/>
         <control name="P1_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_LEFT"/>
         <control name="P1_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_RIGHT"/>
-        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_1_START"/>
-        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_1_SELECT"/>
+        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_START"/>
+        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_SELECT"/>
       </player>
       <player number="2">
         <control name="P2_BUTTON1" voice="B" alwaysActive="0" color="Purple" inputCodes="JOYCODE_2_BUTTON1"/>
@@ -282,8 +282,8 @@
         <control name="P2_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_DOWN"/>
         <control name="P2_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_LEFT"/>
         <control name="P2_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_RIGHT"/>
-        <control name="P2_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_2_START"/>
-        <control name="P2_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_2_SELECT"/>
+        <control name="P2_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_START"/>
+        <control name="P2_BUTTON10" voice="Select" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_SELECT"/>
       </player>
     </controlGroup>
   </emulator>
@@ -306,8 +306,8 @@
         <control name="P1_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_DOWN"/>
         <control name="P1_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_LEFT"/>
         <control name="P1_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_RIGHT"/>
-        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_1_START"/>
-        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_1_SELECT"/>
+        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_START"/>
+        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_SELECT"/>
       </player>
       <player number="2">
         <control name="P2_BUTTON1" voice="B" alwaysActive="0" color="Red" inputCodes="JOYCODE_2_BUTTON1"/>
@@ -320,8 +320,8 @@
         <control name="P2_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_DOWN"/>
         <control name="P2_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_LEFT"/>
         <control name="P2_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_RIGHT"/>
-        <control name="P2_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_2_START"/>
-        <control name="P2_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_2_SELECT"/>
+        <control name="P2_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_START"/>
+        <control name="P2_BUTTON10" voice="Select" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_SELECT"/>
       </player>
     </controlGroup>
   </emulator>
@@ -344,8 +344,8 @@
         <control name="P1_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_DOWN"/>
         <control name="P1_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_LEFT"/>
         <control name="P1_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_RIGHT"/>
-        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_1_START"/>
-        <control name="P1_BUTTON10" voice="Mode" alwaysActive="0" color="Orange" inputCodes="JOYCODE_1_SELECT"/>
+        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_START"/>
+        <control name="P1_BUTTON10" voice="Mode" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_SELECT"/>
       </player>
       <player number="2">
         <control name="P2_BUTTON1" voice="A" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_BUTTON1"/>
@@ -358,8 +358,8 @@
         <control name="P2_JOYSTICK_DOWN" voice="Down" color="Black" alwaysActive="0" inputCodes="JOYCODE_2_DOWN"/>
         <control name="P2_JOYSTICK_LEFT" voice="Left" color="Black" alwaysActive="0" inputCodes="JOYCODE_2_LEFT"/>
         <control name="P2_JOYSTICK_RIGHT" voice="Right" color="Black" alwaysActive="0" inputCodes="JOYCODE_2_RIGHT"/>
-        <control name="P2_BUTTON9" voice="Start" color="Lime" alwaysActive="0" inputCodes="JOYCODE_2_START"/>
-        <control name="P2_BUTTON10" voice="Mode" color="Orange" alwaysActive="0" inputCodes="JOYCODE_2_SELECT"/>
+        <control name="P2_BUTTON9" voice="Start" color="Black" alwaysActive="0" inputCodes="JOYCODE_2_START"/>
+        <control name="P2_BUTTON10" voice="Mode" color="Black" alwaysActive="0" inputCodes="JOYCODE_2_SELECT"/>
       </player>
     </controlGroup>
   </emulator>
@@ -382,8 +382,8 @@
         <control name="P1_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_DOWN"/>
         <control name="P1_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_LEFT"/>
         <control name="P1_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_RIGHT"/>
-        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_1_START"/>
-        <control name="P1_BUTTON10" voice="Mode" alwaysActive="0" color="Orange" inputCodes="JOYCODE_1_SELECT"/>
+        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_START"/>
+        <control name="P1_BUTTON10" voice="Mode" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_SELECT"/>
       </player>
       <player number="2">
         <control name="P2_BUTTON1" voice="A" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_BUTTON1"/>
@@ -396,8 +396,8 @@
         <control name="P2_JOYSTICK_DOWN" voice="Down" color="Black" alwaysActive="0" inputCodes="JOYCODE_2_DOWN"/>
         <control name="P2_JOYSTICK_LEFT" voice="Left" color="Black" alwaysActive="0" inputCodes="JOYCODE_2_LEFT"/>
         <control name="P2_JOYSTICK_RIGHT" voice="Right" color="Black" alwaysActive="0" inputCodes="JOYCODE_2_RIGHT"/>
-        <control name="P2_BUTTON9" voice="Start" color="Lime" alwaysActive="0" inputCodes="JOYCODE_2_START"/>
-        <control name="P2_BUTTON10" voice="Mode" color="Orange" alwaysActive="0" inputCodes="JOYCODE_2_SELECT"/>
+        <control name="P2_BUTTON9" voice="Start" color="Black" alwaysActive="0" inputCodes="JOYCODE_2_START"/>
+        <control name="P2_BUTTON10" voice="Mode" color="Black" alwaysActive="0" inputCodes="JOYCODE_2_SELECT"/>
       </player>
     </controlGroup>
   </emulator>
@@ -422,8 +422,8 @@
         <control name="P1_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_DOWN"/>
         <control name="P1_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_LEFT"/>
         <control name="P1_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_RIGHT"/>
-        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_1_START"/>
-        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_1_SELECT"/>
+        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_START"/>
+        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_SELECT"/>
       </player>
       <player number="2">
         <control name="P2_BUTTON1" voice="Cross" alwaysActive="0" color="Blue" inputCodes="JOYCODE_2_BUTTON1"/>
@@ -438,8 +438,8 @@
         <control name="P2_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_DOWN"/>
         <control name="P2_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_LEFT"/>
         <control name="P2_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_RIGHT"/>
-        <control name="P2_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_2_START"/>
-        <control name="P2_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_2_SELECT"/>
+        <control name="P2_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_START"/>
+        <control name="P2_BUTTON10" voice="Select" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_SELECT"/>
       </player>
     </controlGroup>
     <controlGroup groupName="crash_bandicoot_2_-_cortex_strikes_back_(usa)" voice="Crash Bandicoot 2 - Cortex Strikes Back (USA)" numPlayers="1" alternating="0" jukebox="0">
@@ -453,8 +453,8 @@
         <control name="P1_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_DOWN"/>
         <control name="P1_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_LEFT"/>
         <control name="P1_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_RIGHT"/>
-        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_1_START"/>
-        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_1_SELECT"/>
+        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_START"/>
+        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_SELECT"/>
       </player>
     </controlGroup>
     <controlGroup groupName="castlevania_-_symphony_of_the_night" voice="Castlevania - Symphony Of The Night" numPlayers="1" alternating="0" jukebox="0">
@@ -470,8 +470,8 @@
         <control name="P1_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_DOWN"/>
         <control name="P1_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_LEFT"/>
         <control name="P1_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_RIGHT"/>
-        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_1_START"/>
-        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_1_SELECT"/>
+        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_START"/>
+        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_SELECT"/>
       </player>
     </controlGroup>
     <controlGroup groupName="tekken_3_(usa)" voice="Tekken 3 (USA)" numPlayers="2" alternating="0" jukebox="0">
@@ -484,8 +484,8 @@
         <control name="P1_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_DOWN"/>
         <control name="P1_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_LEFT"/>
         <control name="P1_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_RIGHT"/>
-        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_1_START"/>
-        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_1_SELECT"/>
+        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_START"/>
+        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_SELECT"/>
       </player>
       <player number="2">
         <control name="P2_BUTTON1" voice="Cross" alwaysActive="0" color="Blue" inputCodes="JOYCODE_2_BUTTON1"/>
@@ -496,8 +496,8 @@
         <control name="P2_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_DOWN"/>
         <control name="P2_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_LEFT"/>
         <control name="P2_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_RIGHT"/>
-        <control name="P2_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_2_START"/>
-        <control name="P2_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_2_SELECT"/>
+        <control name="P2_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_START"/>
+        <control name="P2_BUTTON10" voice="Select" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_SELECT"/>
       </player>
     </controlGroup>
   </emulator>
@@ -520,8 +520,8 @@
         <control name="P1_JOYSTICK_DOWN" voice="Down" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_DOWN"/>
         <control name="P1_JOYSTICK_LEFT" voice="Left" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_LEFT"/>
         <control name="P1_JOYSTICK_RIGHT" voice="Right" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_RIGHT"/>
-        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Lime" inputCodes="JOYCODE_1_START"/>
-        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Orange" inputCodes="JOYCODE_1_SELECT"/>
+        <control name="P1_BUTTON9" voice="Start" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_START"/>
+        <control name="P1_BUTTON10" voice="Select" alwaysActive="0" color="Black" inputCodes="JOYCODE_1_SELECT"/>
       </player>
     </controlGroup>
   </emulator>
