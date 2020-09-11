@@ -1,4 +1,4 @@
-# CoinOps GEMS LEDBlinky Integration
+# CoinOps LEDBlinky Integration
 
 This in a WIP for integrated LEDBlinbky into CoinOps Gems
 
