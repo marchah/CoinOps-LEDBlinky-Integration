@@ -4,7 +4,7 @@ This in a WIP for integrated LEDBlinbky into CoinOps.
 
 Feel free to create a ticket about suggestions, ideas and imporvements.
 
-## Install
+## Installation
 
 ### Install With Compatible Hardware
 
