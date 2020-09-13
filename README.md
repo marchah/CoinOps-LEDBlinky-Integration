@@ -6,11 +6,19 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 
 ## Installation
 
+### Install With Compatible Hardware
+
 - Select your CoinOps version folder and drag & drop the files from `launchers.windows` in your CoinOps `launchers.windows` folder.
 - Drag and drop the folder `plugins` into your CoinOps root folder
 - Generate your `LEDBlinkyInputMap.xml` using `plugins/LEDBlinky/GenLEDBlinkyInputMap.exe` (check this video for more infos [Instructions](https://www.youtube.com/watch?v=opu6NofnyWg))
 - Optional: put your LEDBlinky activation keys inside `plugins/LEDBlinky`
 - Generate `mame.xml`: go to the folder `plugins/ledblinky-integration/scripts` and double click on `GenerateMameXML.bat`
+
+### Install Without Compatible Hardware
+
+- Select your CoinOps version folder and drag & drop the files from `launchers.windows` in your CoinOps `launchers.windows` folder.
+- Drag and drop the folder `plugins` into your CoinOps root folder
+- Go to folder `plugins/ledblinky-integration`, open `config.cmd` and set `is_ledblinky_activated` to `0`
 
 ## Usage
 
