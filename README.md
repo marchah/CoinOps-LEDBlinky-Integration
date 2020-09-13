@@ -45,6 +45,11 @@ What is you don't have LEDBlinky capable hardware and still want to help testing
 Just follow the install instructions and set `is_ledblinky_activated` to `0` in `plugins/ledblinky-integration/config.cmd`.
 You will be able to play your games like a stock CoinOps and it will help test that the customs `bat` launchers are working properly.
 
+### Diamonds
+
+- **mame** -> Alien Storm
+- **mameNEW** -> **??? (untested)**
+
 ### Gems
 
 - **Genesis** -> **??? (untested)**
