@@ -6,6 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+# MAC OS files
+.DS_Store
 
 debug/
 release/
