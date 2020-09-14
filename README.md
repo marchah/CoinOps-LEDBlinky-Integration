@@ -39,7 +39,7 @@ _If you have a better idea don't hesitate to create a ticket_
 
 ## TODO
 
-- Fix a better animation that `random.lwax`, it's very annoying
+- Fix a better animation that `random.lwax`, it's very annoying => create a basic animation just displaying CoinOps menu buttons (shoulder or trigger to switch between letters).
 - Deactivate LEDBlinky voice at startup
 - I don't like the fact that I'm using a `.bat` file to save config, should be a `.ini` instead.
 - Create a `.bat` file to generate `mame.xml`
