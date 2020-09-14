@@ -7,13 +7,14 @@ const controlConfPath =
 
 const gemsRomsList = './scripts/listMAMERomsGems.txt';
 const gemsPlusRomsList = './scripts/listMAMERomsGemsPlus.txt';
+const diamondsRomsList = './scripts/listMAMERomsDiamonds.txt';
 
 const COINOPS_MAME_ROMS: { [type: string]: string[] } = {};
 
 function loadIniFileRomNames(configFile: string): string[] {
   const romNames: string[] = [];
 
-  configFile.split('\n').forEach((line) => {
+  configFile.split('\n').forEach(line => {
     if (startsWith(line, '[') && line.indexOf(']') > 0) {
       romNames.push(line.replace('[', '').replace(']', '')); // no comment ...
     }
@@ -31,8 +32,8 @@ function checkRomsConfig(
 } {
   return roms.reduce(
     (acc, rom) => {
-      const hasControls = !!controlsRomNames.find((str) => str === rom);
-      const hasColors = !!colorsRomNames.find((str) => str === rom);
+      const hasControls = !!controlsRomNames.find(str => str === rom);
+      const hasColors = !!colorsRomNames.find(str => str === rom);
 
       return {
         ...acc,
@@ -71,6 +72,12 @@ function checkRomsConfig(
     })
   ).split('\n');
 
+  COINOPS_MAME_ROMS.DIAMONDS = (
+    await promises.readFile(diamondsRomsList, {
+      encoding: 'utf-8',
+    })
+  ).split('\n');
+
   await promises.writeFile(
     `./scripts/gemsInfo.json`,
     JSON.stringify(
@@ -85,6 +92,19 @@ function checkRomsConfig(
     JSON.stringify(
       checkRomsConfig(
         COINOPS_MAME_ROMS.GEMS_PLUS,
+        controlsRomNames,
+        colorsRomNames
+      ),
+      null,
+      2
+    )
+  );
+
+  await promises.writeFile(
+    `./scripts/diamondsInfo.json`,
+    JSON.stringify(
+      checkRomsConfig(
+        COINOPS_MAME_ROMS.DIAMONDS,
         controlsRomNames,
         colorsRomNames
       ),
