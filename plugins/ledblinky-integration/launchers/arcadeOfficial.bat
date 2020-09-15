@@ -2,14 +2,14 @@
 call ..\config.cmd
 set rom_name=%1
 
-set EMULATOR_PATH = ..\..\Emulators Offical\MAME\
+set "EMULATOR_PATH=..\..\Emulators Official\mame"
 
 cd..\..\LEDBlinky
 if %is_ledblinky_activated%==1 (
   start "" LEDBlinky.exe %rom_name% MAME
 )
 
-cd EMULATOR_PATH
+cd "%EMULATOR_PATH%"
 start /wait /B "" mame64.exe %rom_name%
 
 :WAITLOOP
