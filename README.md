@@ -47,6 +47,32 @@ _If you have a better idea don't hesitate to create a ticket_
 - Need to find a way to stop LEDBlinky when CoinOps exit
 - Need to test if servostick is working
 
+### Diamonds
+- [Missing MAME games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/diamondsInfo.json)
+
+### Gems
+- [Missing MAME games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/gemsInfo.json)
+- SNES ???
+- Genesis ???
+
+### Gems Plus
+- [Missing MAME games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/gemsPlusInfo.json)
+- DC: missing individual game colors
+- DK: ???
+- Dolphin: missing individual game colors
+- Genesis: missing individual game colors
+- N64: missing individual game colors
+- PSP: missing individual game colors
+- SegaCD: missing individual game colors
+- SNES: missing individual game colors
+
+### Next 2
+
+Pack handled
+
+#### Arcade Official Trusted Pack
+- [Missing MAME games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/next2ArcadeOfficialInfo.json)
+
 ## Testing
 
 What is you don't have LEDBlinky capable hardware and still want to help testing? Well good news you can.
@@ -79,6 +105,12 @@ You will be able to play your games like a stock CoinOps and it will help test t
 - **SegaCD** -> Sonic CD
 - **SNES** -> Axelay
 - **SNESalt** -> Super Mario World II
+
+### Next 2
+
+#### Arcade Official Trusted Pack
+
+- **mame** -> 1941
 
 ## Notes
 
