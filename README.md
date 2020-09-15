@@ -48,19 +48,19 @@ _If you have a better idea don't hesitate to create a ticket_
 - Need to test if servostick is working
 
 ### Diamonds
-- [Missing MAME games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/diamondsInfo.json)
+- MAME: [Missing games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/diamondsInfo.json)
 
 ### Gems
-- [Missing MAME games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/gemsInfo.json)
-- SNES ???
-- Genesis ???
+- Genesis: ???
+- MAME: [Missing games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/gemsInfo.json)
+- SNES: ???
 
 ### Gems Plus
-- [Missing MAME games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/gemsPlusInfo.json)
 - DC: missing individual game colors
 - DK: ???
 - Dolphin: missing individual game colors
 - Genesis: missing individual game colors
+- MAME: [Missing games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/gemsPlusInfo.json)
 - N64: missing individual game colors
 - PSP: missing individual game colors
 - SegaCD: missing individual game colors
@@ -71,7 +71,11 @@ _If you have a better idea don't hesitate to create a ticket_
 Pack handled
 
 #### Arcade Official Trusted Pack
-- [Missing MAME games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/next2ArcadeOfficialInfo.json)
+- Atomiswave: missing defaults & individual game colors. **NOT WORKING COINOPS SOUND RUNNING IN THE BACKGROUND**
+- MAME: [Missing games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/next2ArcadeOfficialInfo.json)
+- Model 2: missing defaults & individual game colors. **NOT WORKING COINOPS SOUND RUNNING IN THE BACKGROUND**
+- Model 3: missing defaults & individual game colors. **NOT WORKING COINOPS SOUND RUNNING IN THE BACKGROUND**
+- Naomi: missing defaults & individual game colors. **NOT WORKING COINOPS SOUND RUNNING IN THE BACKGROUND**
 
 ## Testing
 
@@ -110,7 +114,11 @@ You will be able to play your games like a stock CoinOps and it will help test t
 
 #### Arcade Official Trusted Pack
 
+- **Atomiswave** -> Demolish Fist
 - **mame** -> 1941
+- **Model 2** -> Daytona USA
+- **Model 3** -> Daytona USA 2
+- **Naomi** -> Power Stone
 
 ## Notes
 
