@@ -76,11 +76,11 @@ Pack handled
 
 #### Arcade Official Trusted Pack
 
-- Atomiswave: missing defaults & individual game colors. **NOT WORKING COINOPS SOUND RUNNING IN THE BACKGROUND**
+- Atomiswave: missing individual game colors.
 - MAME: [Missing games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/next2ArcadeOfficialInfo.json)
-- Model 2: missing defaults & individual game colors. **NOT WORKING COINOPS SOUND RUNNING IN THE BACKGROUND**
-- Model 3: missing defaults & individual game colors. **NOT WORKING COINOPS SOUND RUNNING IN THE BACKGROUND**
-- Naomi: missing defaults & individual game colors. **NOT WORKING COINOPS SOUND RUNNING IN THE BACKGROUND**
+- Model 2: missing defaults & individual game colors. **NOT WORKING COINOPS PROPERLY RENAMED TO DONT CHECK USER BUILD**
+- Model 3: missing defaults & individual game colors. **NOT WORKING COINOPS PROPERLY RENAMED TO DONT CHECK USER BUILD**
+- Naomi: missing individual game colors.
 
 ## Testing
 
