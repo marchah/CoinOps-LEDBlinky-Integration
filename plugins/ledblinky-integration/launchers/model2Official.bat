@@ -13,7 +13,7 @@ cd "%EMULATOR_PATH%"
 start /wait /B "" %rom_name%.bat
 
 :WAITLOOP
-tasklist /FI "IMAGENAME eq mame64.exe" 2>NUL | find /I /N "mame64.exe">NUL
+tasklist /FI "IMAGENAME eq %rom_name%.bat" 2>NUL | find /I /N "%rom_name%.bat">NUL
 if "%ERRORLEVEL%"=="0" goto RUNNING
 goto NOTRUNNING
 

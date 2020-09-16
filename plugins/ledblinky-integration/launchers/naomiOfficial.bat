@@ -14,7 +14,7 @@ cd "%EMULATOR_PATH%"
 start /wait /B "" retroarch.exe -L cores\flycast_libretro.dll %rom_path%
 
 :WAITLOOP
-tasklist /FI "IMAGENAME eq mameNEW64.exe" 2>NUL | find /I /N "mameNEW64.exe">NUL
+tasklist /FI "IMAGENAME eq retroarch.exe" 2>NUL | find /I /N "retroarch.exe">NUL
 if "%ERRORLEVEL%"=="0" goto RUNNING
 goto NOTRUNNING
 

@@ -4,19 +4,17 @@ set rom_path=%1
 set rom_name=%2
 
 set "EMULATOR_PATH=..\..\Emulators Official\Xiso Official"
-set EMULATOR_EXE = "retroarch.exe"
-set LEDBLINKY_EMULATOR_NAME = "Sammy_Atomiswave"
 
 cd..\..\LEDBlinky
 if %is_ledblinky_activated%==1 (
-  start "" LEDBlinky.exe %rom_name% %LEDBLINKY_EMULATOR_NAME%
+  start "" LEDBlinky.exe %rom_name% Sammy_Atomiswave
 )
 
 cd "%EMULATOR_PATH%"
-start /wait /B "" %EMULATOR_EXE% -L cores\flycast_libretro.dll %rom_path%
+start /wait /B "" retroarch.exe -L cores\flycast_libretro.dll %rom_path%
 
 :WAITLOOP
-tasklist /FI "IMAGENAME eq %EMULATOR_EXE%" 2>NUL | find /I /N %EMULATOR_EXE%>NUL
+tasklist /FI "IMAGENAME eq retroarch.exe" 2>NUL | find /I /N "retroarch.exe">NUL
 if "%ERRORLEVEL%"=="0" goto RUNNING
 goto NOTRUNNING
 
