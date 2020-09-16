@@ -46,16 +46,20 @@ _If you have a better idea don't hesitate to create a ticket_
 - Need to find a way to start LEDBlinky when CoinOps start
 - Need to find a way to stop LEDBlinky when CoinOps exit
 - Need to test if servostick is working
+- Should i use only one `.bat` launchers instead of one per emulator? Make less script files but may loose in customisation.
 
 ### Diamonds
+
 - MAME: [Missing games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/diamondsInfo.json)
 
 ### Gems
+
 - Genesis: ???
 - MAME: [Missing games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/gemsInfo.json)
 - SNES: ???
 
 ### Gems Plus
+
 - DC: missing individual game colors
 - DK: ???
 - Dolphin: missing individual game colors
@@ -71,6 +75,7 @@ _If you have a better idea don't hesitate to create a ticket_
 Pack handled
 
 #### Arcade Official Trusted Pack
+
 - Atomiswave: missing defaults & individual game colors. **NOT WORKING COINOPS SOUND RUNNING IN THE BACKGROUND**
 - MAME: [Missing games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/next2ArcadeOfficialInfo.json)
 - Model 2: missing defaults & individual game colors. **NOT WORKING COINOPS SOUND RUNNING IN THE BACKGROUND**
