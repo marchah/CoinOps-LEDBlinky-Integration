@@ -125,6 +125,18 @@ You will be able to play your games like a stock CoinOps and it will help test t
 - **Model 3** -> Daytona USA 2
 - **Naomi** -> Power Stone
 
+## Scripts
+
+Scripts are located in `plugins/ledblinky-integration/scripts`
+
+- `DebugLEDBlue.bat`: light all the LEDs in blue
+- `DebugLEDGreen.bat`: light all the LEDs in green
+- `DebugLEDRed.bat`: light all the LEDs in red
+- `DebugLEDWhite.bat`: light all the LEDs in white
+- `GenerateMameXML.bat`: generate mame.xml and place it in the correct folder
+- `StartLEDBlinky.bat`: start LEDBlinky
+- `StopLEDBlinky.bat`: exit LEDBlinky
+
 ## Notes
 
 - If you use an IPAC Ultimate I/O, you will have to configure the board in DInput, Xinput protocol doesn't support it. On IPAC software to map the input you will have use the right joystick instead of the Dpad and will have to invert `Select` and `Start`
