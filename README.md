@@ -78,8 +78,8 @@ Pack handled
 
 - Atomiswave: missing individual game colors.
 - MAME: [Missing games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/next2ArcadeOfficialInfo.json)
-- Model 2: missing defaults & individual game colors. **NOT WORKING COINOPS PROPERLY RENAMED TO DONT CHECK USER BUILD**
-- Model 3: missing defaults & individual game colors. **NOT WORKING COINOPS PROPERLY RENAMED TO DONT CHECK USER BUILD**
+- Model 2: missing defaults & individual game colors. **JoyKey doesn't start on the background**
+- Model 3: missing defaults & individual game colors.
 - Naomi: missing individual game colors.
 
 ## Testing
