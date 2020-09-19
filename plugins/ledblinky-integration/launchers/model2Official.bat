@@ -10,13 +10,10 @@ if %is_ledblinky_activated%==1 (
 )
 
 cd "%EMULATOR_PATH%"
-start /wait /B "" %rom_name%.bat
-
-REM wait for the emulator to have the time to start
-timeout /t 5
+cmd.exe /C %rom_name%.bat
 
 :WAITLOOP
-tasklist /FI "IMAGENAME eq %rom_name%.bat" 2>NUL | find /I /N "%rom_name%.bat">NUL
+tasklist | find /I "%rom_name%.bat">NUL 2>&1
 if "%ERRORLEVEL%"=="0" goto RUNNING
 goto NOTRUNNING
 
