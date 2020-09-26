@@ -82,6 +82,10 @@ Pack handled
 - Model 3: missing defaults & individual game colors.
 - Naomi: missing individual game colors.
 
+### MSX Mame Official Trusted Pack
+
+Missing individual game colors
+
 ## Testing
 
 What is you don't have LEDBlinky capable hardware and still want to help testing? Well good news you can.
@@ -124,6 +128,11 @@ You will be able to play your games like a stock CoinOps and it will help test t
 - **Model 2** -> Daytona USA
 - **Model 3** -> Daytona USA 2
 - **Naomi** -> Power Stone
+
+### MSX Mame Official Trusted Pack
+
+- **MSX Cart** -> Aleste
+- **MSX Disk** -> Aleste 2
 
 ## Scripts
 
