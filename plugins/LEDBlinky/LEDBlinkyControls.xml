@@ -146,6 +146,7 @@
         <control name="P2_BUTTON10" voice="Select" alwaysActive="0" color="Black" inputCodes="JOYCODE_2_SELECT"/>
       </player>
     </controlGroup>
+  </emulator>
   <emulator emuname="Nintendo_64" emuDesc="Nintendo 64 Console">
     <controlGroup groupName="DEFAULT" voice="" numPlayers="4" alternating="0" defaultActive="48,48,48,48" defaultInactive="0,0,0,0" jukebox="0" ledwizGlobalPulse="3">
       <player number="0">
