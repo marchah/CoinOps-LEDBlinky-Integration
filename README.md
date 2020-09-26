@@ -82,7 +82,27 @@ Pack handled
 - Model 3: missing defaults & individual game colors.
 - Naomi: missing individual game colors.
 
+### Dreamcast Official TRUSTED PACK
+
+Missing individual game colors
+
 ### MSX Mame Official Trusted Pack
+
+Missing individual game colors
+
+### Model 2 Official Addon Pack (MeanGreene13)
+
+Missing defaults & individual game colors **JoyKey doesn't start on the background**
+
+### Model 3 Official Addon Pack (MeanGreene13)
+
+Missing defaults & individual game colors
+
+### Nintendo 64 Official TRUSTED PACK
+
+Missing individual game colors
+
+### PlayStation 1 Official TRUSTED PACK
 
 Missing individual game colors
 
@@ -129,10 +149,32 @@ You will be able to play your games like a stock CoinOps and it will help test t
 - **Model 3** -> Daytona USA 2
 - **Naomi** -> Power Stone
 
-### MSX Mame Official Trusted Pack
+#### Dreamcast Official TRUSTED PACK
+
+- **Dreamcast Official** -> 18 Wheller
+- **Dreamcast Redream Official SUB** -> 18 Wheller
+
+#### Model 2 Official Addon Pack (MeanGreene13)
+
+- **Model 2** -> Dead or Alive
+
+#### Model 3 Official Addon Pack (MeanGreene13)
+
+- **Model 3** -> Fighting Vipers 2
+
+#### MSX Mame Official Trusted Pack
 
 - **MSX Cart** -> Aleste
 - **MSX Disk** -> Aleste 2
+
+#### Nintendo 64 Official TRUSTED PACK
+
+- **Nintendo 64 Official** -> 007 Golden Eye
+- **Nintendo 64 Project64 SUB** -> 007 Golden Eye
+
+#### PlayStation 1 Official TRUSTED PACK
+
+- **Playstation 1 Official** -> Ape Escape
 
 ## Scripts
 
