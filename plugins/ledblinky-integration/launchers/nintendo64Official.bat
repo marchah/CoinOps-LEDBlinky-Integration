@@ -11,7 +11,7 @@ if %is_ledblinky_activated%==1 (
 )
 
 cd "%EMULATOR_PATH%"
-start /wait /B "" retroarch.exe -L cores\mupen64plus_libretro.dll %rom_path%
+start /wait /B "" retroarch.exe -L cores\mupen64plus_next_libretro.dll %rom_path%
 
 :WAITLOOP
 tasklist /FI "IMAGENAME eq retroarch.exe" 2>NUL | find /I /N "retroarch.exe">NUL
