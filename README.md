@@ -6,19 +6,26 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 
 ## Installation
 
-### Install With Compatible Hardware
-
+<details>
+<summary>Install With Compatible Hardware</summary>
+  
 - Select your CoinOps version folder and drag & drop the files from `launchers.windows` in your CoinOps `launchers.windows` folder.
 - Drag and drop the folder `plugins` into your CoinOps root folder
 - Generate your `LEDBlinkyInputMap.xml` using `plugins/LEDBlinky/GenLEDBlinkyInputMap.exe` (check this video for more infos [Instructions](https://www.youtube.com/watch?v=opu6NofnyWg))
 - Optional: put your LEDBlinky activation keys inside `plugins/LEDBlinky`
 - Generate `mame.xml`: go to the folder `plugins/ledblinky-integration/scripts` and double click on `GenerateMameXML.bat`
 
-### Install Without Compatible Hardware
+</details>
 
+
+<details>
+<summary>Install Without Compatible Hardware</summary>
+  
 - Select your CoinOps version folder and drag & drop the files from `launchers.windows` in your CoinOps `launchers.windows` folder.
 - Drag and drop the folder `plugins` into your CoinOps root folder
 - Go to folder `plugins/ledblinky-integration`, open `config.cmd` and set `is_ledblinky_activated` to `0`
+</details>
+
 
 ## Usage
 
@@ -39,45 +46,23 @@ _If you have a better idea don't hesitate to create a ticket_
 
 ## TODO
 
-- Fix a better animation that `random.lwax`, it's very annoying => create a basic animation just displaying CoinOps menu buttons (shoulder or trigger to switch between letters).
+- Find a better animation than `random.lwax`, it's very annoying => create a basic animation just displaying CoinOps menu buttons (shoulder or trigger to switch between letters).
 - Deactivate LEDBlinky voice at startup
 - I don't like the fact that I'm using a `.bat` file to save config, should be a `.ini` instead.
-- Create a `.bat` file to generate `mame.xml`
 - Need to find a way to start LEDBlinky when CoinOps start
 - Need to find a way to stop LEDBlinky when CoinOps exit
 - Need to test if servostick is working
 - Should i use only one `.bat` launchers instead of one per emulator? Make less script files but may loose in customisation.
 
-### Diamonds
+## Next 2
 
-- MAME: [Missing games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/diamondsInfo.json)
-
-### Gems
-
-- Genesis: ???
-- MAME: [Missing games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/gemsInfo.json)
-- SNES: ???
-
-### Gems Plus
-
-- DC: missing individual game colors
-- DK: ???
-- Dolphin: missing individual game colors
-- Genesis: missing individual game colors
-- MAME: [Missing games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/gemsPlusInfo.json)
-- N64: missing individual game colors
-- PSP: missing individual game colors
-- SegaCD: missing individual game colors
-- SNES: missing individual game colors
-
-### Next 2
-
-Pack handled
+<details>
+<summary>Pack handled</summary>
 
 #### Arcade Official Trusted Pack
 
 - Atomiswave: missing individual game colors.
-- MAME: [Missing games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/next2ArcadeOfficialInfo.json)
+- MAME: Missing some games colors & controls.
 - Model 2: **LEDBLINKY NOT SUPPORTED**
 - Model 3: **LEDBLINKY NOT SUPPORTED**
 - Naomi: missing individual game colors.
@@ -93,6 +78,8 @@ Missing individual game colors
 ### PlayStation 1 Official TRUSTED PACK
 
 Missing individual game colors
+  
+</details>
 
 ## Testing
 
@@ -100,33 +87,10 @@ What is you don't have LEDBlinky capable hardware and still want to help testing
 Just follow the install instructions and set `is_ledblinky_activated` to `0` in `plugins/ledblinky-integration/config.cmd`.
 You will be able to play your games like a stock CoinOps and it will help test that the customs `bat` launchers are working properly.
 
-### Diamonds
 
-- **mame** -> Alien Storm
-- **mameNEW** -> **??? (untested)**
-
-### Gems
-
-- **Genesis** -> **??? (untested)**
-- **mame** -> Alien Storm
-- **SNES** -> **??? (untested)**
-
-### Gems Plus
-
-- **C64** -> Uridium
-- **DC** -> Border Down
-- **DK** -> **??? (untested)**
-- **Dolphin** -> F-Zero GX
-- **Genesis** -> Eco The Dolphin
-- **mame** -> Alien Storm
-- **mameNEW** -> **??? (untested)**
-- **N64** -> Super Mario 64
-- **PSP** -> Ultimate Ghosts 'n Goblins
-- **PSX** -> Crash Bandicoot 2
-- **SegaCD** -> Sonic CD
-- **SNES** -> Axelay
-- **SNESalt** -> Super Mario World II
-
+<details>
+<summary>Pack handled</summary>
+  
 ### Next 2
 
 #### Arcade Official Trusted Pack
@@ -140,7 +104,7 @@ You will be able to play your games like a stock CoinOps and it will help test t
 #### Dreamcast Official TRUSTED PACK
 
 - **Dreamcast Official** -> 18 Wheller
-- **Dreamcast Redream Official SUB** -> 18 Wheller  (forgot how to switch emulator or maybe the game for testing is not correct)
+- **Dreamcast Redream Official SUB** -> 18 Wheller (forgot how to switch emulator or maybe the game for testing is not correct)
 
 #### Nintendo 64 Official TRUSTED PACK
 
@@ -150,6 +114,8 @@ You will be able to play your games like a stock CoinOps and it will help test t
 #### PlayStation 1 Official TRUSTED PACK
 
 - **Playstation 1 Official** -> Ape Escape
+  
+</details>
 
 ## Scripts
 
