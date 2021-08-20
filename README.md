@@ -140,12 +140,12 @@ You will be able to play your games like a stock CoinOps and it will help test t
 #### Dreamcast Official TRUSTED PACK
 
 - **Dreamcast Official** -> 18 Wheller
-- **Dreamcast Redream Official SUB** -> 18 Wheller
+- **Dreamcast Redream Official SUB** -> 18 Wheller  (forgot how to switch emulator or maybe the game for testing is not correct)
 
 #### Nintendo 64 Official TRUSTED PACK
 
 - **Nintendo 64 Official** -> 007 Golden Eye
-- **Nintendo 64 Project64 SUB** -> 007 Golden Eye
+- **Nintendo 64 Project64 SUB** -> 007 Golden Eye (forgot how to switch emulator or maybe the game for testing is not correct)
 
 #### PlayStation 1 Official TRUSTED PACK
 
