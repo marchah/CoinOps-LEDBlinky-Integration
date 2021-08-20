@@ -78,25 +78,13 @@ Pack handled
 
 - Atomiswave: missing individual game colors.
 - MAME: [Missing games colors & controls](https://github.com/marchah/CoinOps-LEDBlinky-Integration/blob/master/scripts/next2ArcadeOfficialInfo.json)
-- Model 2: missing defaults & individual game colors. **JoyKey doesn't start on the background**
-- Model 3: missing defaults & individual game colors.
+- Model 2: **LEDBLINKY NOT SUPPORTED**
+- Model 3: **LEDBLINKY NOT SUPPORTED**
 - Naomi: missing individual game colors.
 
 ### Dreamcast Official TRUSTED PACK
 
 Missing individual game colors
-
-### MSX Mame Official Trusted Pack
-
-Missing individual game colors
-
-### Model 2 Official Addon Pack (MeanGreene13)
-
-Missing defaults & individual game colors **JoyKey doesn't start on the background**
-
-### Model 3 Official Addon Pack (MeanGreene13)
-
-Missing defaults & individual game colors
 
 ### Nintendo 64 Official TRUSTED PACK
 
@@ -154,19 +142,6 @@ You will be able to play your games like a stock CoinOps and it will help test t
 - **Dreamcast Official** -> 18 Wheller
 - **Dreamcast Redream Official SUB** -> 18 Wheller
 
-#### Model 2 Official Addon Pack (MeanGreene13)
-
-- **Model 2** -> Dead or Alive
-
-#### Model 3 Official Addon Pack (MeanGreene13)
-
-- **Model 3** -> Fighting Vipers 2
-
-#### MSX Mame Official Trusted Pack
-
-- **MSX Cart** -> Aleste
-- **MSX Disk** -> Aleste 2
-
 #### Nintendo 64 Official TRUSTED PACK
 
 - **Nintendo 64 Official** -> 007 Golden Eye
@@ -190,4 +165,4 @@ Scripts are located in `plugins/ledblinky-integration/scripts`
 
 ## Notes
 
-- If you use an IPAC Ultimate I/O, you will have to configure the board in DInput, Xinput protocol doesn't support it. On IPAC software to map the input you will have use the right joystick instead of the Dpad and will have to invert `Select` and `Start`
+- If you use an IPAC Ultimate I/O, you will have to configure the board in DInput, Xinput protocol doesn't support it. On IPAC software to map the input you will have use the left joystick instead of the Dpad and will have to invert `Select` and `Start`
