@@ -6,19 +6,26 @@ Feel free to create a ticket about suggestions, ideas and imporvements.
 
 ## Installation
 
-### Install With Compatible Hardware
-
+<details>
+<summary>Install With Compatible Hardware</summary>
+  
 - Select your CoinOps version folder and drag & drop the files from `launchers.windows` in your CoinOps `launchers.windows` folder.
 - Drag and drop the folder `plugins` into your CoinOps root folder
 - Generate your `LEDBlinkyInputMap.xml` using `plugins/LEDBlinky/GenLEDBlinkyInputMap.exe` (check this video for more infos [Instructions](https://www.youtube.com/watch?v=opu6NofnyWg))
 - Optional: put your LEDBlinky activation keys inside `plugins/LEDBlinky`
 - Generate `mame.xml`: go to the folder `plugins/ledblinky-integration/scripts` and double click on `GenerateMameXML.bat`
 
-### Install Without Compatible Hardware
+</details>
 
+
+<details>
+<summary>Install Without Compatible Hardware</summary>
+  
 - Select your CoinOps version folder and drag & drop the files from `launchers.windows` in your CoinOps `launchers.windows` folder.
 - Drag and drop the folder `plugins` into your CoinOps root folder
 - Go to folder `plugins/ledblinky-integration`, open `config.cmd` and set `is_ledblinky_activated` to `0`
+</details>
+
 
 ## Usage
 
@@ -47,9 +54,10 @@ _If you have a better idea don't hesitate to create a ticket_
 - Need to test if servostick is working
 - Should i use only one `.bat` launchers instead of one per emulator? Make less script files but may loose in customisation.
 
-### Next 2
+## Next 2
 
-Pack handled
+<details>
+<summary>Pack handled</summary>
 
 #### Arcade Official Trusted Pack
 
@@ -70,6 +78,8 @@ Missing individual game colors
 ### PlayStation 1 Official TRUSTED PACK
 
 Missing individual game colors
+  
+</details>
 
 ## Testing
 
@@ -77,6 +87,10 @@ What is you don't have LEDBlinky capable hardware and still want to help testing
 Just follow the install instructions and set `is_ledblinky_activated` to `0` in `plugins/ledblinky-integration/config.cmd`.
 You will be able to play your games like a stock CoinOps and it will help test that the customs `bat` launchers are working properly.
 
+
+<details>
+<summary>Pack handled</summary>
+  
 ### Next 2
 
 #### Arcade Official Trusted Pack
@@ -100,6 +114,8 @@ You will be able to play your games like a stock CoinOps and it will help test t
 #### PlayStation 1 Official TRUSTED PACK
 
 - **Playstation 1 Official** -> Ape Escape
+  
+</details>
 
 ## Scripts
 
