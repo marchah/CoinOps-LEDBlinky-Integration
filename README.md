@@ -100,9 +100,7 @@ You will be able to play your games like a stock CoinOps and it will help test t
 
 
 <details>
-<summary>Pack handled</summary>
-  
-### Next 2
+<summary>Next 2</summary>
 
 #### Arcade Official Trusted Pack
 
@@ -125,11 +123,11 @@ You will be able to play your games like a stock CoinOps and it will help test t
 #### PlayStation 1 Official TRUSTED PACK
 
 - **Playstation 1 Official** -> Ape Escape
+ 
+</details>
   
-  
-  
-  
-### RETRO Arcade
+<details>
+<summary>RETRO Arcade</summary>
 
 #### Arcade Official Trusted Pack
 
