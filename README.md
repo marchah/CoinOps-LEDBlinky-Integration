@@ -83,6 +83,15 @@ Missing individual game colors
   
 </details>
 
+## RETRO Arcade
+
+<details>
+<summary>Emulators handled</summary>
+
+- MAME: Missing some games colors & controls.
+  
+</details>
+
 ## Testing
 
 What is you don't have LEDBlinky capable hardware and still want to help testing? Well good news you can.
@@ -117,6 +126,18 @@ You will be able to play your games like a stock CoinOps and it will help test t
 
 - **Playstation 1 Official** -> Ape Escape
   
+  
+  
+  
+### RETRO Arcade
+
+#### Arcade Official Trusted Pack
+
+- **mame** -> 10-yard fight
+- **mameNEW** -> ???
+- **mameNEW2** -> ???
+
+
 </details>
 
 ## Scripts
