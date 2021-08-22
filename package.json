@@ -4,6 +4,6 @@
   },
   "private": true,
   "scripts": {
-    "update-mame-colors": "yarn install && cp ./node_modules/ledblinky-controls-colors/mame/*.ini ./plugins/ledblinky-integration/color-config/."
+    "update-mame-colors": "yarn install && cp ./node_modules/ledblinky-controls-colors/mame/*.ini ./CoinOps Next 2/plugins/ledblinky-integration/color-config/. && cp ./node_modules/ledblinky-controls-colors/mame/*.ini ./Retro ARCADE/plugins/ledblinky-integration/color-config/."
   }
 }
