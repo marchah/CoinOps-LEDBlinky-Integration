@@ -89,6 +89,8 @@ Missing individual game colors
 <summary>Emulators handled</summary>
 
 - MAME: Missing some games colors & controls.
+- Atomiswave: missing individual game colors.
+- Dreamcast: missing individual game colors.
   
 </details>
 
@@ -134,7 +136,8 @@ You will be able to play your games like a stock CoinOps and it will help test t
 - **mame** -> 10-yard fight
 - **mameNEW** -> ???
 - **mameNEW2** -> ???
-
+- **Atomiswave** -> Fist of the North Star
+- **Dreamcast** -> Zero Gunner 2
 
 </details>
 
