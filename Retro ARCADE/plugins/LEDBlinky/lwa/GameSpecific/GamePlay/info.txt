@@ -1,0 +1,3 @@
+This folder can be used to specifiy unique animations on a game-by-game basis. To use this feature, the animation files (.lwax) in this folder MUST have the same name as the game or rom, and you must have a default animation selected for the related animation option in the Configuration app.
+
+For example, let's say you wish to run a specific animation when playing Joust; First you must have an animation selected for the "Game Play Animation" option - this is the default animation. Next, create (or copy) your Joust animation into the \lwa\GameSpecific\GamePlay folder. The file MUST have the exact same name as the game/rom the emulator is running. So for Joust, you would use "joust.lwax". That's it.

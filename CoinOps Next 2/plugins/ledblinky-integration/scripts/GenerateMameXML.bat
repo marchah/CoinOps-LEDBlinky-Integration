@@ -1,7 +1,7 @@
 @echo off
 
 set "NEXT_MAME_PATH=..\..\..\Emulators Official\mame\"
-set "GEMS_DIAMONDS_MAME_PATH=..\..\..\emulators\MAME\"
+set "RETRO_MAME_PATH=..\..\..\emulators\mame\"
 
 if exist "%NEXT_MAME_PATH%" (
   cd %NEXT_MAME_PATH%
