@@ -46,6 +46,8 @@ _If you have a better idea don't hesitate to create a ticket_
 
 ## TODO
 
+- Update LEDBlinky version
+- Rewrite everything in goland ???
 - Find a better animation than `random.lwax`, it's very annoying => create a basic animation just displaying CoinOps menu buttons (shoulder or trigger to switch between letters).
 - Deactivate LEDBlinky voice at startup
 - I don't like the fact that I'm using a `.bat` file to save config, should be a `.ini` instead.
