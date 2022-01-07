@@ -156,3 +156,5 @@ Scripts are located in `plugins/ledblinky-integration/scripts`
 ## Notes
 
 - If you use an IPAC Ultimate I/O, you will have to configure the board in DInput, Xinput protocol doesn't support it. On IPAC software to map the input you will have use the left joystick instead of the Dpad and will have to invert `Select` and `Start`
+
+<img width="206" alt="Screen Shot 2022-01-07 at 8 31 04 AM" src="https://user-images.githubusercontent.com/818848/148575108-e5837ff8-6fad-4aaf-8105-7750426e0b24.png">
